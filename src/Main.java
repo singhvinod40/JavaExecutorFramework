@@ -56,5 +56,8 @@ public class Main {
 
         System.out.println("future done? " + future.isDone());
         System.out.print("result: " + result);
+
+        executor.shutdown();
+
     }
 }
